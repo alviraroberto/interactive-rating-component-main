@@ -57,12 +57,18 @@ body {
 }
 
 
-.num-circles:hover {
+.num-circles:hover  {
     transition: all .1s ease;
-    background: hsl(215, 18%, 21%);
+    background: hsl(216, 17%, 46%);
+
 }
 
-a {
+
+.num-circles:hover > p {
+    color: #ff5000;
+}
+
+p {
     text-decoration: none;
     color: hsl(217, 12%, 63%);
 }
@@ -94,10 +100,19 @@ a {
     justify-content: center;
 }
 
+.sub-btn > p {
+    color:hsl(0, 0%, 100%);
+}
+
 
 .sub-btn:hover {
     transition: all .1s ease;
-    background: #af3a04;
+    background: #f0ebe7;
+}
+
+.sub-btn:hover > p {
+    transition: all .1s ease;
+    color: #ff5000;
 }
 
 
