@@ -82,7 +82,7 @@ p {
     color: hsl(217, 12%, 63%);
 }
 
-.sub-btn{
+#sub-btn{
     background: #ff5000;
     height: 35px;
     cursor: pointer;
@@ -98,25 +98,29 @@ p {
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
-.sub-btn > p {
+#sub-btn > p {
     color:hsl(0, 0%, 100%);
 }
 
 
-.sub-btn:hover {
+#sub-btn:hover {
     transition: all .1s ease;
     background: #f0ebe7;
 }
 
-.sub-btn:hover > p {
+#sub-btn:hover > p {
     transition: all .1s ease;
     color: #ff5000;
 }
 
 
 
+#activate-state{
+    display:none;
+}
 
 
 
